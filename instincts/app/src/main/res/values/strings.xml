@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instincts</string>
+    <string name="action_settings">Settings</string>
+    <string name="lorem">INSTINCTS, the annual extravaganza hosted by SSN College of Engineering, is one of the largest cultural festivals in South India… Come second week of March, step into SSN for this grand spectacle. In its ninth successful year, this edition of Instincts promises to deliver more, in style. From rockstars to artists, reelists to gamers, it provides the best platform for everyone to showcase their skills and gain exposure to a greater audience.</string>
+    <string name="title_activity_hello">hello</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_event">EventActivity</string>
+     <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name="title_activity_edetail">EDetailActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+
+</resources>

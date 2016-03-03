@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#555555">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_top"
+        android:background="#22313f">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="SSN MAP"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            />
+
+
+
+    </LinearLayout>
+
+    <com.borntowindevelopers.instincts.ScaleImageView
+
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/ma">
+
+    </com.borntowindevelopers.instincts.ScaleImageView>
+
+</LinearLayout>

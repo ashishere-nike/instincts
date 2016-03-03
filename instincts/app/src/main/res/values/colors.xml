@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_default_primary_light">#ffff598e</color>
+    <color name="theme_default_primary">#e91e63</color>
+    <color name="theme_default_primary_dark">#c2185b</color>
+    <color name="theme_default_accent">#8f673ab7</color>
+    <color name="theme_default_accent_light">#8f9575cd</color>
+    <color name="theme_default_accent_dark">#8f512da8</color>
+    <color name="theme_background">#f2f2f2</color>
+
+        <color name="colorPrimary">#125688</color>
+        <color name="colorPrimaryDark">#125688</color>
+        <color name="textColorPrimary">#FFFFFF</color>
+        <color name="windowBackground">#FFFFFF</color>
+        <color name="navigationBarColor">#000000</color>
+        <color name="colorAccent">#c8e8ff</color>
+
+    <color name="photo_tint">#7f101010</color>
+
+    <color name="default_dark_muted">#44424f</color>
+    <color name="default_dark_vibrant">#7b400a</color>
+    <color name="default_vibrant">#f3aa66</color>
+    <color name="default_light_muted">#c9be9c</color>
+    <color name="default_light_vibrant">#fcda99</color>
+    <color name="default_muted">#7f7c8a</color>
+
+
+
+    <color name="splash_bg">#F8F6EC</color>
+    <color name="orange">#FF9600</color>
+    <color name="aqua">#02D1AC</color>
+    <color name="yellow">#FFD200</color>
+    <color name="blue">#00C6FF</color>
+    <color name="green">#00E099</color>
+    <color name="pink">#FF3892</color>
+
+    <array name="splash_circle_colors">
+        <item>@color/green</item>
+        <item>@color/pink</item>
+        <item>@color/orange</item>
+        <item>@color/aqua</item>
+        <item>@color/yellow</item>
+        <item>@color/blue</item>
+    </array>
+
+
+
+</resources>

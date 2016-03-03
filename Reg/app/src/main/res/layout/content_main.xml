@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.b2wdevelopers.reg.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#ECECEC"
+   >
+
+    <android.support.v7.widget.CardView
+
+
+        app:cardPreventCornerOverlap="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="7dp"
+        android:id="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Your Name"
+            android:id="@+id/name"
+            android:background="@drawable/editstyle"
+            android:padding="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+
+            android:layout_height="60dp"
+            android:hint="Enter Your Email id"
+            android:id="@+id/email"
+
+            android:background="@drawable/editstyle"
+            android:padding="10dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Your College Name"
+            android:id="@+id/college"
+            android:background="@drawable/editstyle"
+            android:padding="10dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Your Mobile No"
+            android:id="@+id/mob"
+            android:background="@drawable/editstyle"
+            android:padding="10dp"
+
+            />
+
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:id="@+id/reg"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/view"
+        android:background="#446CB3"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
